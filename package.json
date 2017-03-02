@@ -1,0 +1,30 @@
+{
+  "name": "mytrello",
+  "version": "1.0.0",
+  "description": "oop programming",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sythrill/MyTrello.git"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "oop"
+  ],
+  "author": "Kasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sythrill/MyTrello/issues"
+  },
+  "homepage": "https://github.com/Sythrill/MyTrello#readme",
+  "devDependencies": {
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
