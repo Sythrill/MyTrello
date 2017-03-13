@@ -1,0 +1,101 @@
+body {
+  font-family: "Rubik", sans-serif; }
+
+h1,
+.column-title {
+  color: #FFFAFF;
+  text-align: center; }
+
+.board_title {
+  padding: 20px; }
+
+.board {
+  background: #303036;
+  width: 1400px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.column {
+  border: 1px solid;
+  display: inline-block;
+  height: 100%;
+  width: 300px;
+  list-style: none;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  background: #30BCED;
+  clear: both; }
+
+.column-card-list {
+  list-style: none;
+  float: left;
+  min-height: 150px;
+  overflow: hidden; }
+
+.card-placeholder {
+  background: #FC5130;
+  opacity: 0.3;
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px; }
+
+.column-list {
+  list-style: none; }
+
+.card {
+  background: #FC5130;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+  list-style: none;
+  display: block;
+  margin-bottom: 15px;
+  clear: both; }
+  .card:hover {
+    cursor: pointer; }
+
+.btn-delete {
+  float: right;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 0;
+  color: #303036; }
+  .btn-delete:hover {
+    cursor: pointer; }
+
+.btn-delete-column {
+  float: right;
+  background-color: transparent;
+  border: 0;
+  color: red;
+  margin: 10px; }
+  .btn-delete-column:hover {
+    cursor: pointer; }
+
+.column-add-card,
+.column-ch-card {
+  float: left;
+  background-color: transparent;
+  border: 0;
+  color: green;
+  margin: 10px; }
+  .column-add-card:hover,
+  .column-ch-card:hover {
+    cursor: pointer; }
+
+.card-description {
+  padding: 5px;
+  text-align: center; }
+
+.create-column {
+  background-color: transparent;
+  border: 0;
+  color: green;
+  margin: 25px; }
+  .create-column:hover {
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
