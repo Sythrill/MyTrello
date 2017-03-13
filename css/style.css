@@ -59,7 +59,7 @@ h1,
 
 .btn-delete {
   float: right;
-  border-radius: 5px;
+  border: radius 5px;
   background-color: transparent;
   border: 0;
   color: #303036; }
@@ -75,15 +75,13 @@ h1,
   .btn-delete-column:hover {
     cursor: pointer; }
 
-.column-add-card,
-.column-ch-card {
+.add-card {
   float: left;
   background-color: transparent;
   border: 0;
   color: green;
   margin: 10px; }
-  .column-add-card:hover,
-  .column-ch-card:hover {
+  .add-card:hover {
     cursor: pointer; }
 
 .card-description {
